@@ -1,0 +1,9 @@
+                        /*datatypes*/
+
+
+
+datatypes are two types - primitive (primary datatypes) and non-primitive(user-defined) datatypes
+in primitive datatypes we have two datatypes which is numeric and non-numeric datatypes
+and in numeric datatypes we have integric and decimal datatypes in integric we have byte, short, int, long and then in decimal i have float and double and 
+then in non-numeric datatypes we have char and boolean, then comes to user-defined datatypes in which we have class, interface, 
+Arrays, String  
