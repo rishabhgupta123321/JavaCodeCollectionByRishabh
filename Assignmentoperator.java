@@ -9,7 +9,7 @@
 // assignment operators are two types - 1. simple assignment and 2. compound assignment operator
 
 
-
+/*
 class Assignmentoperator{
     public static void main(String[] ar){
         int a;
@@ -32,4 +32,19 @@ class Assignmentoperator{
     System.out.println(a);
         }
 
+}
+*/
+
+
+
+class Assignmentoperator{
+public static void main(String[] args) {
+    int a;
+    a = 5;
+    System.out.println(a);
+    a+=10;
+    System.out.println(a);
+    a-=10;
+    System.out.println(a);
+}
 }

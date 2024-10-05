@@ -1,5 +1,5 @@
 /*Factorial of a number-  */
-// input 5 ------->  120 (5*4*3*2*1) == (1*2*3*4*5)
+// Requirement - input 5 ------->  120 (5*4*3*2*1) == (1*2*3*4*5)
 
 
 /*
@@ -21,7 +21,7 @@ class Fact{
 
 
 
-
+/**
 import java.util.Scanner;
 class Fact{
     public static void main(String[] args){
@@ -36,4 +36,25 @@ class Fact{
     ref.close();
     }
 }
+}
+*/
+
+
+
+
+
+
+import java.util.Scanner;
+public class Fact {
+    public static void main(String[] args) {
+        int n,facto = 1;
+        Scanner r = new Scanner(System.in);
+        System.out.print("Enter any number: ");
+        n = r.nextInt();
+        for(int i = n;i>=1;i--){
+            facto *= i;
+        }
+        System.out.print("Factorial of "+ n + " is "+ facto);
+        r.close();
+    }    
 }

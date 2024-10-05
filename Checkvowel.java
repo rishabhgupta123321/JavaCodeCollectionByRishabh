@@ -4,6 +4,8 @@
            // input - a e i o u ----->  Vowel
            // input - b c d etc....   ----> Consonant
 
+
+/**
 import java.util.Scanner;
 class Checkvowel{
     public static void main(String[] args) {
@@ -20,8 +22,7 @@ class Checkvowel{
     r.close(); 
     }
 }
-
-
+*/
 
 
 // in this below code i know that r is a Scanner class type(method) but charAt() is a String class method
@@ -34,3 +35,21 @@ class Checkvowel{
 
 // in the logical or operator we have to satisfy any one condition but in the logical and 
 // operator we have to satisfy all condition .
+
+
+import java.util.Scanner;
+class Checkvowel{
+    public static void main(String[] args) {
+        char ch;
+        Scanner r = new Scanner(System.in);
+        System.out.print("Enter any character: .... ");
+        ch = r.nextLine().charAt(0);
+        if(ch== 'a' || ch== 'e' || ch== 'i' || ch== 'o' || ch=='u' || ch== 'A' || ch== 'E' || ch== 'I' || ch== 'O' || ch== 'U'){
+            System.out.print("Vowel");
+        }
+        else{
+            System.out.print("Consonant");
+        }
+        r.close();
+    }
+}

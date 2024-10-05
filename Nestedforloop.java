@@ -1,5 +1,5 @@
 /* Nested forloop example - */
-
+// requirements and logic and then write basic syntax and then write full program. 
 
 
 
@@ -8,7 +8,7 @@
 /*
 class Nestedforloop{
     public static void main(String[] rags){
-        int i,j;
+        int i,j;   // 2 variables where i we will use for outer loop and j we will use for inner loop. 
         for(; ;)  // rows
         {
             for(; ;)      // columns
@@ -45,7 +45,7 @@ class Nestedforloop{
 
 
 
-
+/*
 class Nestedforloop{
     public static void main(String[] rags){
         int i,j;
@@ -58,8 +58,8 @@ class Nestedforloop{
             System.out.print("\n");
         }
     }
-} 
-  
+}   
+*/
 
 
 
@@ -76,3 +76,105 @@ then inner loop will execute 5 times like this and that’s why in outer loop
 
 
 */
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Nestedforloop
+ */
+/**
+public class Nestedforloop {
+    public static void main(String[] args) {
+        int i,j;
+
+        for( ; ; )
+        {
+            for( ; ; )
+            {
+
+            }
+        }
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+/**
+ * Nestedforloop
+ */
+/**
+ public class Nestedforloop {
+    public static void main(String[] args) {
+        int i,j;
+        
+        for( i = 1 ; i<=5 ; ++i )      // pre-increment
+        {
+            for( j = 1 ; j<=5 ; ++j)   // pre-increment 
+            {
+
+            }
+        }
+    }
+}
+*/
+
+
+
+
+
+
+public class Nestedforloop {
+    public static void main(String[] args) {
+        int i,j;
+        
+        for( i = 1 ; i<=5 ; i++ )     // post increment  // for row 
+        {
+            for( j = 1 ; j<=5 ; j++ )   // post increment      // for column 
+            { 
+                // System.out.print("*" + " ");
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+            // System.out.println();
+        }
+    }
+}
+
+
+
+
+
+
+
+// public class Nestedforloop {
+//     public static void main(String[] args) {
+//         int i,j;
+        
+//         for( i = 1 ; i<=5 ; i++ )     // post increment  // for row 
+//         {
+//             for( j = 1 ; j<=5 ; j++ )   // post increment      // for column 
+//             { 
+//                 // System.out.print("*" + " ");
+//                 System.out.println("* ");
+//             }
+//             System.out.print("\n");
+//             // System.out.println();
+//         }
+//     }
+// }
+

@@ -1,7 +1,7 @@
                 /*Calculate Total marks and Average marks-- */
 
 
-
+/**
 import java.util.Scanner;
 class Average{
         public static void main(String[] args) {
@@ -21,7 +21,7 @@ class Average{
             obj.close();
         }
     }
-
+*/
     
 
 
@@ -98,3 +98,128 @@ class Average{
         }
     }
 */
+
+
+
+
+
+
+
+
+
+
+/** 
+import java.util.Scanner;
+class Average{
+    public static void main(String []args){
+        int a, b, c, d, e;
+        System.out.print("Enter number of Five Subjects: ");
+        Scanner r = new Scanner(System.in);
+        a = r.nextInt();
+        b = r.nextInt();
+        c = r.nextInt();
+        d = r.nextInt();
+        e = r.nextInt();
+        int total = a+b+c+d+e;
+        System.out.print("Total number is : "+ total+" \n");
+        double avg = total/5;
+        System.out.print("Average number of subjects is : "+ avg);
+        r.close();
+
+        
+    }
+}
+    */
+
+
+/**
+in this above code and below code difference is only the divisor that is in below is 5.0  (double value) but in 
+above is 5 , so in above when we put any 5 integer value and then when we divide with 5 then we only get integer value that is 
+integer and then after coming integer value without decimal , that value according to the double avg   assigning operator that value impliclitly
+change to the from integer to double that is in decimal so in this that this will come .0 as a decimal form , but 
+
+when we come in below where we are dividing the integer total value with by floating point number that is double   5.0  then in this when integer value we will divide 
+with this so this will automatically firstly become total value also in double and then this will divide so that 
+after division the value come that is in double so that this will not be like always .0  it can be different also and then after that this value will assign in double 
+datatype variable.
+
+*/
+
+
+
+
+
+
+/**
+    import java.util.Scanner;
+    class Average{
+        public static void main(String []args){
+            int a, b, c, d, e;
+            System.out.print("Enter number of Five Subjects: ");
+            Scanner r = new Scanner(System.in);
+            a = r.nextInt();
+            b = r.nextInt();
+            c = r.nextInt();
+            d = r.nextInt();
+            e = r.nextInt();
+            int total = a+b+c+d+e;
+            System.out.print("Total number is : "+ total+" \n");
+            double avg = total/5;
+            System.out.print("Average number of subjects is : "+ avg);
+            r.close();
+    
+            
+        }
+    }
+        */
+
+
+
+
+/**
+        import java.util.Scanner;
+        class Average{
+            public static void main(String []args){
+                int a, b, c, d, e;
+                System.out.print("Enter number of Five Subjects: ");
+                Scanner r = new Scanner(System.in);
+                a = r.nextInt();
+                b = r.nextInt();
+                c = r.nextInt();
+                d = r.nextInt();
+                e = r.nextInt();
+                int total = a+b+c+d+e;
+                System.out.print("Total number is : "+ total+" \n");
+                float avg = total/5f;
+                System.out.print("Average number of subjects is : "+ avg);
+                r.close();
+        
+                
+            }
+        }
+            */
+
+
+
+
+
+            import java.util.Scanner;
+            class Average{
+                public static void main(String []args){
+                    int a, b, c, d, e;
+                    System.out.print("Enter number of Five Subjects: ");
+                    Scanner r = new Scanner(System.in);
+                    a = r.nextInt();
+                    b = r.nextInt();
+                    c = r.nextInt();
+                    d = r.nextInt();
+                    e = r.nextInt();
+                    int total = a+b+c+d+e;
+                    System.out.print("Total number is : "+ total+" \n");
+                    float avg = total/5F;
+                    System.out.print("Average number of subjects is : "+ avg);
+                    r.close();
+            
+                    
+                }
+            }

@@ -19,8 +19,7 @@ class Maxnumber{
 
 
 
-
-
+/**
 import java.util.Scanner;
 class Maxnumber{
     public static void main(String[] args){
@@ -38,8 +37,32 @@ class Maxnumber{
     r.close();
     }
 }
+*/
 
 
+
+
+
+/**
+import java.util.Scanner;
+class Maxnumber{
+    public static void main(String []args){
+        int a, b;
+        Scanner r = new Scanner(System.in);
+        System.out.print("Enter any two numbers.... ");
+        a = r.nextInt();
+        b = r.nextInt();
+        System.out.print("Maximum number is.. ");
+        if(a>b){
+            System.out.print(a);
+        }
+        else{
+            System.out.print(b);
+        }
+    r.close();
+    }
+}
+*/
 
 
 
@@ -96,6 +119,8 @@ class Maxnumber{
 
 
 
+// Requirement -
+// input 10 and 20 ----->  20 
 
 
 /*

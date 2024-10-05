@@ -73,10 +73,24 @@ class Ternaryoperator{
 
 
  
-class Ternaryoperator{
-    public static void main(String[] args){     // here this is like nested if/else code.
-    int a = 2, b = 2, c = 2,Max;
-    Max = ((a>b) ? ((a>c)?a:c) : ((b>c)?b:c)); 
-    System.out.println(Max);
-    }
+// class Ternaryoperator{
+//     public static void main(String[] args){     // here this is like nested if/else code.
+//     int a = 2, b = 2, c = 2,Max;
+//     Max = ((a>b) ? ((a>c)?a:c) : ((b>c)?b:c)); 
+//     System.out.println(Max);
+//     }
+// }
+
+
+/**
+ * Ternaryoperator
+ */
+public class Ternaryoperator {
+    public static void main(String[] args) {
+        int a = 4, b = 2, c = 5;
+        int Max,Maxt;
+        Max = ((a>b)?a:b);
+        Maxt = ((a>b)?((a>c)?a:c):((b>c)?b:c));
+        System.out.println(Max +" "+Maxt);
+    }   
 }

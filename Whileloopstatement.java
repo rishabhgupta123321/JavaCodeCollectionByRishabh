@@ -72,15 +72,15 @@ class Whileloopstatement{
 
 
 
-class Whileloopstatement{
-    public static void main(String[] args){
-        int n=1;       // i have done initialization process for n value.
-        while(n<=6){
-            System.out.println("Company");
-        n++;      //  Post-increment: n is incremented by 1 after this statement
-        }
-    }
-}
+// class Whileloopstatement{
+//     public static void main(String[] args){
+//         int n=1;       // i have done initialization process for n value.
+//         while(n<=10){
+//             System.out.println("Company");
+//         n++;      //  Post-increment: n is incremented by 1 after this statement
+//         }
+//     }
+// }
 
 
 // and this above code is giving us limited no. of code's output.
@@ -90,3 +90,78 @@ class Whileloopstatement{
 
 
 
+
+
+/**
+ * Whileloopstatement
+ */
+// import java.util.Scanner;
+// public class Whileloopstatement {
+//     public static void main(String[] args) {
+//         int a;
+//         Scanner obj = new Scanner(System.in);
+//         a = obj.nextInt();
+//         while(a>=0){
+//             System.out.println("Hello hi");
+//         }
+//         System.out.println("Invalid value....");
+//     }
+// }
+
+
+
+
+
+// import java.util.Scanner;
+// public class Whileloopstatement {
+//     public static void main(String[] args) {
+//         int a;
+//         Scanner obj = new Scanner(System.in);
+//         a = obj.nextInt();
+//         while(a>=0){
+//             System.out.println("Hello hi");
+//             ++a;
+//         }
+//         System.out.println("Invalid value....");
+//     }
+// }
+
+
+
+
+
+// import java.util.Scanner;
+// public class Whileloopstatement {
+//     public static void main(String[] args) {
+//         int a;
+//         Scanner obj = new Scanner(System.in);
+//         a = obj.nextInt();
+//         while(a<=10){
+//             System.out.println("Hello hi"+" ");
+//             ++a;
+//         }
+//         System.out.println("Invalid value....");
+//     }
+// }
+
+
+
+
+
+// here we don't know the number of iterations that how many iterations will be in advance.
+
+
+import java.util.Scanner;
+public class Whileloopstatement {
+    public static void main(String[] args) {
+        int a;
+        Scanner obj = new Scanner(System.in);
+        a = obj.nextInt();
+        while(a<=10){
+            System.out.println(a);
+            ++a;
+        }
+        System.out.println("Invalid value....");
+        obj.close();
+    }
+}

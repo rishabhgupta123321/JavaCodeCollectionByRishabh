@@ -35,6 +35,8 @@
           it will show an inputmistmatch exception error */
 
 
+
+/*
 import java.util.Scanner;
 class Inputoutput {
     public static void main(String[] args){
@@ -44,5 +46,42 @@ class Inputoutput {
         a = scanner.nextInt();
         System.out.println("This is the data: = " + a);
         scanner.close(); 
+    }
+}
+*/
+
+
+
+
+
+
+/*
+import java.util.Scanner;
+public class Inputoutput{
+    public static void main(String[] args) {
+        int a;      // variable 
+        Scanner obj = new Scanner(System.in);  // for taking input with the help of Scanner class. 
+        System.out.println("Enter any data value:- ");
+        a = obj.nextInt();
+        System.out.print("data is here:- "+ a );
+        obj.close();
+    }
+}
+*/
+
+// in this System.in , System is a pre-defined class and in is for taking input.
+//nextInt() is a method of Scanner class, this method take input of only integer value and we can call this with only Scanner class.
+
+
+import java.util.Scanner;
+public class Inputoutput{
+    public static void main(String[] args) {
+        int a,b;      // variable 
+        Scanner obj = new Scanner(System.in);  // for taking input with the help of Scanner class. 
+        System.out.println("Enter any data value:- ");
+        a = obj.nextInt();  // for taking input basically we bind the object with method 
+        b = obj.nextInt();
+        System.out.print("data is here:- "+ a  +" "+ b);
+        obj.close();
     }
 }

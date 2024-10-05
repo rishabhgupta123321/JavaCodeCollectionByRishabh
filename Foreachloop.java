@@ -25,9 +25,28 @@
 
 
 
+// class Foreachloop{
+//     public static void main(String []argss){
+//         int a[] = {2,4,5,6,9};
+//         for(int b:a){             // in this firstly b will take value from a array first value and store and forward to the statement and again and again this will go like this
+//             System.out.println(b+" ");
+//         }                                   
+//     }
+
+// }
+
+
+
+// in terms of array this for-each is better than normal for loop.
+
+
+
+
+
 // so after this i have proper code below - 
 
 
+/**
 class Foreachloop{
     public static void main(String []agjs){
         int i[] = {10,20,30,40,50};        // in this   int i and int i[]   is different-different 
@@ -37,6 +56,7 @@ class Foreachloop{
         }
     }
 }  
+*/                      
 
 
 
@@ -62,6 +82,8 @@ class Forloop{
 
 
 
+
+
 /*
 class Forloop {
     public static void main(String[] args) {
@@ -72,6 +94,8 @@ class Forloop {
     }
 }
 */
+
+
 
 
 
@@ -89,3 +113,44 @@ class Forloop{
 }
 
 */
+
+
+
+
+
+
+// if we do this for-each loop program with the help of for loop then -
+
+/**
+ * Foreachloop
+ */
+
+
+
+ /**
+ public class Foreachloop {
+    public static void main(String[] args) {
+        int a[] = {1,2,3,4,5,6,7,8};
+        int n, i;
+        n = a.length;
+        // array's basic index from 0 and end till n-1 , where n is the length of the array
+        for(i=0;i<n;i++){
+            System.out.print(a[i]+" ");      // a[0] means 1 value when 0 is the index value
+        }
+    }
+}
+*/ 
+
+
+
+
+
+public class Foreachloop {
+    public static void main(String[] args) {
+        int a[] = {1,2,3,4,5,6,7,8};
+        int i;       // array's basic index from 0 and end till n-1 , where n is the length of the array
+        for(i=0;i<a.length;i++){
+            System.out.print(a[i]+" ");      // a[0] means 1 value when 0 is the index value
+        }
+    }
+}

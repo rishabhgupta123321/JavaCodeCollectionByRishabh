@@ -41,17 +41,17 @@ class Chararcter{
 
 
 
-import java.util.Scanner;
-class Chararcter{
-    public static void main(String []args){
-        char ch;
-        Scanner n = new Scanner(System.in);
-        System.out.print("Enter any character - ");
-        ch =n.next().charAt(0);
-        System.out.println("Character- "+ ch);
-    n.close();
-    }
-}
+// import java.util.Scanner;
+// class Chararcter{
+//     public static void main(String []args){
+//         char ch;
+//         Scanner n = new Scanner(System.in);
+//         System.out.print("Enter any character - ");
+//         ch =n.next().charAt(0);
+//         System.out.println("Character- "+ ch);
+//     n.close();
+//     }
+// }
 
 
 
@@ -108,3 +108,33 @@ class Chararcter{
     }
 }
 */
+
+
+
+// import java.util.Scanner;
+// class Character{
+//     public static void main(String[] args) {
+//         char ch;
+//         Scanner r = new Scanner(System.in);
+//         System.out.print("Please Enter any character: ");
+//         ch = r.next().charAt(0);
+//         System.out.print("character: "+ch);
+//         r.close();
+//     }
+// }
+
+
+
+
+
+import java.util.Scanner;
+class Character{
+    public static void main(String[] args) {
+        char ch;
+        Scanner r = new Scanner(System.in);
+        System.out.print("Please Enter any character: ");
+        ch = r.nextLine().charAt(0);
+        System.out.print("character: "+ch);
+        r.close();
+    }
+}

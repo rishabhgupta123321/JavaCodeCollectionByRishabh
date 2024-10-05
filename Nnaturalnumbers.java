@@ -22,7 +22,7 @@ class Nnaturalnumbers {
 
 
 
-
+/**
 import java.util.Scanner;
 class Nnaturalnumbers {
     public static void main(String[] args){
@@ -36,7 +36,7 @@ class Nnaturalnumbers {
     }
 }
 }
-
+*/
 
 
 
@@ -137,3 +137,77 @@ class Nnaturalnumbers {
     }
 }
 */
+
+
+
+
+
+
+// import java.util.Scanner;
+// /**
+//  * Nnaturalnumbers
+//  */
+// public class Nnaturalnumbers {
+//     public static void main(String[] args) {
+//         int n;      // here n will work as a limit where natural number will print till n 
+//         Scanner r = new Scanner(System.in);
+//         System.out.print("Enter any number:....  ");
+//         n = r.nextInt();    // this nextInt() is the method of the Scanner class
+//         if(n>=1){
+//         for(int i = 1;i<=n; i++){
+//             System.out.print(i+" ");
+//         }
+//     }
+//     else{
+//         System.out.println("Invalid value.... ");
+//     }
+//         r.close();
+//     }
+// }
+
+
+
+
+
+
+
+// for understanding the program we have to do dry run so that program we will understand easily. 
+
+import java.util.Scanner;
+/**
+ * Nnaturalnumbers
+ */
+public class Nnaturalnumbers {
+    public static void main(String[] args) {
+        int n;      // here n will work as a limit where natural number will print till n 
+        Scanner r = new Scanner(System.in);
+        System.out.print("Enter no. of term :....  ");
+        n = r.nextInt();    // this nextInt() is the method of the Scanner class
+        for(int i = 1;i<=n; i++){         // here i++ (post-increment) will work in this loop after all the expression(Statement) will print and then this will excute for next iteration in for loop.
+            System.out.print(i+" ");
+        }
+        r.close();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

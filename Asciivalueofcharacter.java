@@ -1,5 +1,6 @@
                /*Print the ASCII value of a character - */
 
+/**
 import java.util.Scanner;
 
 class Asciivalueofcharacter{
@@ -14,6 +15,23 @@ class Asciivalueofcharacter{
         // this we can do by using implicit typecasting method.
         int i = ch;
         System.out.print("ASCII value of "+ ch + " is " + i);
+        r.close();
+    }
+}
+*/
+
+
+
+
+import java.util.Scanner;
+class Asciivalueofcharacter{
+    public static void main(String []args){
+        char ch;
+        Scanner r = new Scanner(System.in);
+        System.out.print("Enter any character:.... ");
+        ch = r.nextLine().charAt(0);
+        int a = ch;
+        System.out.print("The ASCII value of "+ch+" is "+ a);
         r.close();
     }
 }

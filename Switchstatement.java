@@ -5,7 +5,11 @@
 
 
 
-// this is like a if else-if statement.
+// this is like a if else-if statement.  
+
+
+
+
 import java.util.Scanner;
 class Switchstatement{
     public static void main(String []args){
@@ -40,6 +44,7 @@ class Switchstatement{
 
 
 
+
 /*  Basically for like these conditions we can also use if else-if ladder statements but in 
 that statements that code will become lengthy and in that code we have to write for every statement
  different conditions, so which will be taking more logic, so here we have to choose only choice of 
@@ -47,3 +52,27 @@ that statements that code will become lengthy and in that code we have to write 
 
 That’s why it is short line of code and easy little bit.
    */
+
+
+
+
+
+
+
+// import java.util.Scanner;
+// class Switchstatement{
+//     public static void main(String[] args) {
+//         int a = 4, b = 2, ch;
+//         System.out.print("Enter user choice....  ");
+//         Scanner ref = new Scanner(System.in);
+//         ch = ref.nextInt();
+//         switch (ch) {
+//             case 1:
+                
+//                 break;
+        
+//             default:
+//                 break;
+//         }
+//     }
+// }

@@ -13,6 +13,8 @@
 
 
 
+
+/*
  //   here we have simple if statement in if statement- 
 import java.util.Scanner;
 class Simpleifstatement {
@@ -34,6 +36,98 @@ class Simpleifstatement {
 
 }
 
+*/
 
 
 
+
+
+// import java.util.Scanner;
+// class Simpleifstatement{
+//     public static void main(String[] args) {
+//         int age;
+//         Scanner obj = new Scanner(System.in);
+//         System.out.print("Enter your age.... ");
+//         age = obj.nextInt();
+//         if(age>=18){
+//             System.out.println("Congratulations, you are eligible for votes");
+//         }
+//         System.out.println("Thank you.");
+//         obj.close();
+//     }
+
+// }
+
+
+
+
+
+
+
+
+// import java.util.Scanner;
+// class Simpleifstatement{
+//     public static void main(String[] args) {
+//         int age;
+//         Scanner obj = new Scanner(System.in);
+//         System.out.print("Enter your age.... ");
+//         age = obj.nextInt();
+//         if(age>=18){
+//             System.out.println("Congratulations, you are eligible for votes");
+//         }
+//         if(age<16){
+//             System.out.println("Sorry, you are eligible for votes");
+//         }
+//         System.out.println("Thank you.");
+//         obj.close();
+//     }
+// }
+
+
+
+
+
+
+
+// import java.util.Scanner;
+// class Simpleifstatement{
+//     public static void main(String[] args) {
+//         int age;
+//         Scanner obj = new Scanner(System.in);
+//         System.out.print("Enter your age.... ");
+//         age = obj.nextInt();
+//         if(age>=18){
+//             System.out.println("Congratulations, you are eligible for votes");
+//         }
+//         if(age<18){
+//             System.out.println("Sorry, you are eligible for votes");
+//         }
+//         System.out.println("Thank you.");
+//         obj.close();
+//     }
+// }
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+class Simpleifstatement{
+    public static void main(String[] args) {
+        int age;
+        try(Scanner obj = new Scanner(System.in)){
+        System.out.print("Enter your age.... ");
+        age = obj.nextInt();
+        if(age>=18){
+            System.out.println("Congratulations, you are eligible for votes");
+        }
+        if(age<18){
+            System.out.println("Sorry, you are eligible for votes");
+        }
+        System.out.println("Thank you.");
+    }
+    }
+}
