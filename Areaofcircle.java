@@ -1,66 +1,49 @@
-                       /*Area of circle- */
-//Requirements- 
-// area of circle = pi*r*r
-// PI =  22/7 or 3.14
+/* Area of Circle Program */
 
+// Requirements:
+// Area of Circle = π * r * r
+// PI can be approximated as 22/7 or 3.14
 
+import java.util.Scanner;
 
-/**
-import java.util.*;
-class Areaofcircle{
-    public static void main(String[] args){
-        final double PI = 3.14,area;   // final keyword means this value now we can not change
-        int r;
-        System.out.print("Enter radius of circle ");
-        Scanner ref = new Scanner(System.in);     // this scanner class allow us to take the input value in runtime.
-        r = ref.nextInt();    // r = 4
-        area=PI*r*r;      // 3.14*4*4 = 50.24
-        System.out.print("Area of circle "+area);
-        ref.close();
+// Class to calculate area of a circle using a constant value for PI
+class AreaOfCircleWithConstantPI {
+    public static void main(String[] args) {
+        final double PI = 3.14; // Final keyword means this value cannot be changed
+        int radius; // Variable to store radius
+        double area; // Variable to store calculated area
+
+        // Creating Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the radius of the circle: ");
+        radius = scanner.nextInt(); // Read user input for radius
+
+        // Calculate area of the circle
+        area = PI * radius * radius; // Formula for area
+        System.out.println("Area of circle: " + area); // Output the result
+
+        // Closing the scanner to prevent resource leak
+        scanner.close();
     }
 }
-*/
 
-
-
-// Reqiurements - area of circle 
-// area  = PI * r * r
-// PI = 3.14 or 22/7
-/*
-import java.util.Scanner;
-public class Areaofcircle{
+// Class to calculate area of a circle with user-defined PI
+class AreaOfCircleWithUserDefinedPI {
     public static void main(String[] args) {
-        int r;
-        final double PI = 3.14;  // this PI value will not change 
-        double area;
-        Scanner ref = new Scanner(System.in);
+        int radius; // Variable to store radius
+        final double PI = 3.14; // Final keyword indicates this value is constant
+        double area; // Variable to store calculated area
+
+        // Creating Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the radius of the circle: ");
-        r = ref.nextInt();
-        area = PI * r * r;
-        System.out.print("Area of circle: "+ area);
+        radius = scanner.nextInt(); // Read user input for radius
+
+        // Calculate area of the circle
+        area = PI * radius * radius; // Formula for area
+        System.out.println("Area of circle: " + area); // Output the result
+
+        // Closing the scanner to prevent resource leak
+        scanner.close();
     }
-} 
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
