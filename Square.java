@@ -1,42 +1,25 @@
-          /* Find square root of a number */
-// input 25 ----->  5
+import java.util.Scanner; // Importing Scanner class for user input
+import java.lang.Math;    // Importing Math class for mathematical operations (optional, as it's part of the default package)
 
+class Square {
+    public static void main(String[] argss) {
+        int n; // Variable to store the user-input number
+        double m; // Variable to store the calculated square root
 
-
-/*
-import java.util.Scanner;
-class Square{
-    public static void main(String []argss){
-        int n;
-        double m;
+        // Create a Scanner object for reading input from the console
         Scanner lkss = new Scanner(System.in);
+        
+        // Prompt the user to enter a number
         System.out.print("Enter any number: ");
-        n = lkss.nextInt();
-        m = Math.sqrt(n);   // in this i know that Math is a class name that is in java.lang package but that is default so we can also write or not that's not matter 
-        //                   here sqrt is the method of Math class 
-        System.out.println("Square root of "+ n+" is : "+ m);     // in this we have passed a message and concetaantion operator also
-        lkss.close();
-    }
-}
-*/
+        n = lkss.nextInt(); // Read the integer input from the user
 
+        // Calculate the square root of the input number using the Math.sqrt() method
+        m = Math.sqrt(n); // The sqrt() method returns the square root of the argument
 
+        // Display the result of the square root calculation
+        System.out.println("Square root of " + n + " is: " + m);
 
-
-
-
-import java.util.Scanner;
-import java.lang.Math;    // it is the default package in java 
-class Square{
-    public static void main(String []argss){
-        int n;
-        double m;
-        Scanner lkss = new Scanner(System.in);
-        System.out.print("Enter any number: ");
-        n = lkss.nextInt();
-        m = Math.sqrt(n);   // in this i know that Math is a class name that is in java.lang package but that is default so we can also write or not that's not matter 
-        //                   here sqrt is the method of Math class 
-        System.out.println("Square root of "+ n+" is : "+ m);     // in this we have passed a message and concetaantion operator also
+        // Close the Scanner object to prevent resource leaks
         lkss.close();
     }
 }
